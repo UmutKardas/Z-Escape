@@ -8,7 +8,7 @@ public class PlayerCollisionController : MonoBehaviour
 
     [SerializeField] private PlayerDataTransmitter playerDataTransmitter;
     [SerializeField] private GameObject hutDoor;
-    [SerializeField] private GameObject hitİnEnemy;
+    [SerializeField] private GameObject hitInEnemy;
     [SerializeField] private GameObject gameover;
     [SerializeField] private GameObject soGood;
     [SerializeField] private GameObject restartButton;
@@ -47,7 +47,7 @@ public class PlayerCollisionController : MonoBehaviour
         if (other.gameObject.CompareTag("Door"))
         {
             hutDoor.SetActive(false);
-            hitİnEnemy.SetActive(true);
+            hitInEnemy.SetActive(true);
 
         }
 
